@@ -9,16 +9,11 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import nft from "../public/design.png";
-import consulting from "../public/consulting.png";
+import weather from "../public/Weather.png";
+import nft from "../public/NFT.png";
+import tracking from "../public/Tracking.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import pos from "../public/POS.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -98,115 +93,137 @@ export default function Home() {
             {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"></p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"></p> */}
           </div>
-          <div className="gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+          <div className="gap-10 max-w-lg">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"
+              style={{ backgroundColor: "#666666" }}
+            >
               <a
                 href="https://nft-marketplace-61m7p6rcn-arvnds-projects.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={nft} width={100} height={100} />
+                <Image src={nft} width={500} height={300} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-teal-600">
+              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/NFT_Marketplace"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   NFT MARKETPLACE (code)
+                  <p className="text-teal-500">
+                    --------------------------------
+                  </p>
                 </a>
               </h3>
-              <p className="py-2">
+              <p className="text-blue-100 py-2">
                 Created an simple nft marketplace to create, sell and buy
                 nfts...
               </p>
               {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-gray-800 py-1">Solidity</p>
-              <p className="text-gray-800 py-1">Next.js</p>
-              <p className="text-gray-800 py-1">Hardhat</p>
-              <p className="text-gray-800 py-1">Pinata</p>
+              <p className="text-blue-100 py-1">
+                Solidity | Next.js | Hardhat | Pinata
+              </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+              style={{ backgroundColor: "#666666" }}
+            >
               <a
                 href="https://github.com/Aravinds2511/proof_of_stack_blockchain_prototype"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={nft} width={100} height={100} />
+                <Image src={pos} width={600} height={300} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-teal-600">
+              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/proof_of_stack_blockchain_prototype"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   PROOF-OF-STAKE(Prototype) (code)
+                  <p className="text-teal-500">
+                    --------------------------------
+                  </p>
                 </a>
               </h3>
-              <p className="py-2">
+              <p className="text-blue-100 py-2">
                 Created a simple blockchain that implements proof of stake.
               </p>
               {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1"> P2P connection established</p>
-              <p className="text-gray-800 py-1">
-                Implemeted Block validation, signature validation and POS
-                consensus protocol
+              <p className="text-blue-100 py-1">Python</p>
+              <p className="text-blue-100 py-1">
+                &#8226; P2P connection established
               </p>
-              <p className="text-gray-800 py-1">
-                Has Api endpoints for blockchain state, info, transaction pool
-                and transactions
+              <p className="text-blue-100 py-1">
+                &#8226; Implemeted Block validation, signature validation and
+                POS consensus protocol
+              </p>
+              <p className="text-blue-100 py-1">
+                &#8226; Has Api endpoints for blockchain state, info,
+                transaction pool and transactions
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+              style={{ backgroundColor: "#666666" }}
+            >
               <a
                 href="https://web3-tracking-app.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={nft} width={100} height={100} />
+                <Image src={tracking} width={500} height={300} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-teal-600">
+              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/Web3_Tracking_App/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   WEB3-TRACKING-APP (code)
+                  <p className="text-teal-500">
+                    --------------------------------
+                  </p>
                 </a>
               </h3>
-              <p className="py-2">
+              <p className="text-blue-100 py-2">
                 Created a tracking app using blockchain technology.
               </p>
               {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-gray-800 py-1">Solidity</p>
-              <p className="text-gray-800 py-1">Next.js</p>
-              <p className="text-gray-800 py-1">Hardhat</p>
+              <p className="text-blue-100 py-1">Solidity | Next.js | Hardhat</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+              style={{ backgroundColor: "#666666" }}
+            >
               <a
                 href="https://weather-app-eosin-nine.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={nft} width={100} height={100} />
+                <Image src={weather} width={500} height={250} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-teal-600">
+              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/Weather_app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   WEATHER APP (code)
+                  <p className="text-teal-500">
+                    --------------------------------
+                  </p>
                 </a>
               </h3>
-              <p className="py-2">
+              <p className=" text-blue-100 py-2">
                 Created a weather app that provides weather conditions,
                 forecasts and suggestions.
               </p>
               {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-gray-800 py-1">WEB 2</p>
-              <p className="text-gray-800 py-1">React</p>
+              <p className="text-blue-100 py-1">WEB 2 | React</p>
             </div>
           </div>
         </section>
@@ -214,8 +231,11 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Certifications</h3>
             <div className="flex gap-10">
-              <div className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs">
-                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-violet-600">
+              <div
+                className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
+                style={{ backgroundColor: "#666666" }}
+              >
+                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
                   <a
                     href="https://github.com/Aravinds2511/Weather_app"
                     target="_blank"
@@ -225,8 +245,11 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
-              <div className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs">
-                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-violet-600">
+              <div
+                className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
+                style={{ backgroundColor: "#666666" }}
+              >
+                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
                   <a
                     href="https://simpli-web.app.link/e/I0KKZkO3kEb"
                     target="_blank"
@@ -236,8 +259,11 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
-              <div className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs">
-                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-violet-600">
+              <div
+                className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
+                style={{ backgroundColor: "#666666" }}
+              >
+                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
                   <a
                     href="https://dapp-world.com/course/certificate-verification/7990"
                     target="_blank"
@@ -249,8 +275,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-10">
-              <div className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs">
-                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-violet-600">
+              <div
+                className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
+                style={{ backgroundColor: "#666666" }}
+              >
+                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
                   <a
                     href="https://olympus.mygreatlearning.com/courses/13502/certificate"
                     target="_blank"
@@ -260,8 +289,11 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
-              <div className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs">
-                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-violet-600">
+              <div
+                className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
+                style={{ backgroundColor: "#666666" }}
+              >
+                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
                   <a
                     href="https://www.datacamp.com/statement-of-accomplishment/course/ce1e3c69b5602ffdb4f1c0a412164e551b568965?raw=1"
                     target="_blank"
@@ -271,8 +303,11 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
-              <div className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs">
-                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-violet-600">
+              <div
+                className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
+                style={{ backgroundColor: "#666666" }}
+              >
+                <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
                   <a
                     href="https://www.datacamp.com/statement-of-accomplishment/course/5e559b833a8837abb849a289604b6c00814fc473?raw=1"
                     target="_blank"
@@ -294,88 +329,45 @@ export default function Home() {
                 <h2 className="text-2xl mt-5 py-1 dark:text-white">
                   Languages:
                 </h2>
-                <p className="text-1xl py-1 dark:text-white">Solidity</p>
-                <p className="text-1xl py-1 dark:text-white">Javascript</p>
-                <p className="text-1xl py-1 dark:text-white">Python</p>
-                <p className="text-1xl py-1 dark:text-white">C</p>
-                <p className="text-1xl py-1 dark:text-white">Sql</p>
+                <p className="text-1xl py-1 dark:text-white">
+                  &#8226; Solidity
+                </p>
+                <p className="text-1xl py-1 dark:text-white">
+                  &#8226; Javascript
+                </p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Python</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; C</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Sql</p>
               </li>
               <li>
                 <h2 className="text-2xl mt-5 py-1 dark:text-white">
                   Frameworks:
                 </h2>
-                <p className="text-1xl py-1 dark:text-white">Node js</p>
-                <p className="text-1xl py-1 dark:text-white">Web3 js</p>
-                <p className="text-1xl py-1 dark:text-white">Ethers js</p>
-                <p className="text-1xl py-1 dark:text-white">React js</p>
-                <p className="text-1xl py-1 dark:text-white">Next js</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Node js</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Web3 js</p>
+                <p className="text-1xl py-1 dark:text-white">
+                  &#8226; Ethers js
+                </p>
+                <p className="text-1xl py-1 dark:text-white">
+                  &#8226; React js
+                </p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Next js</p>
               </li>
               <li>
                 <h2 className="text-2xl mt-5 py-1 dark:text-white">Tools:</h2>
-                <p className="text-1xl py-1 dark:text-white">Foundry</p>
-                <p className="text-1xl py-1 dark:text-white">Hardhat</p>
-                <p className="text-1xl py-1 dark:text-white">Truffle</p>
-                <p className="text-1xl py-1 dark:text-white">Remix</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Foundry</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Hardhat</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Truffle</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Remix</p>
               </li>
             </ul>
           </div>
-          {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-          {/* <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
-            </div> */}
-          {/* </div> */}
+          <div>
+            <h3 className="text-3xl mt-10 py-1 dark:text-white">About Me</h3>
+            <p className="text-1xl py-1 dark:text-white">
+              Type something about me.
+            </p>
+          </div>
         </section>
       </main>
     </div>
