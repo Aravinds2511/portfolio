@@ -39,7 +39,9 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://black-abbye-66.tiiny.site"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>
@@ -105,14 +107,14 @@ export default function Home() {
               >
                 <Image src={nft} width={500} height={300} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
+              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/NFT_Marketplace"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   NFT MARKETPLACE (code)
-                  <p className="text-teal-500">
+                  <p className="text-green-500">
                     --------------------------------
                   </p>
                 </a>
@@ -137,14 +139,14 @@ export default function Home() {
               >
                 <Image src={pos} width={600} height={300} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
+              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/proof_of_stack_blockchain_prototype"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   PROOF-OF-STAKE(Prototype) (code)
-                  <p className="text-teal-500">
+                  <p className="text-green-500">
                     --------------------------------
                   </p>
                 </a>
@@ -177,14 +179,14 @@ export default function Home() {
               >
                 <Image src={tracking} width={500} height={300} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
+              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/Web3_Tracking_App/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   WEB3-TRACKING-APP (code)
-                  <p className="text-teal-500">
+                  <p className="text-green-500">
                     --------------------------------
                   </p>
                 </a>
@@ -206,14 +208,14 @@ export default function Home() {
               >
                 <Image src={weather} width={500} height={250} />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 py-4 text-blue-300">
+              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/Weather_app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   WEATHER APP (code)
-                  <p className="text-teal-500">
+                  <p className="text-green-500">
                     --------------------------------
                   </p>
                 </a>
@@ -365,7 +367,15 @@ export default function Home() {
           <div>
             <h3 className="text-3xl mt-10 py-1 dark:text-white">About Me</h3>
             <p className="text-1xl py-1 dark:text-white">
-              Type something about me.
+              Hello there! My name is Aravind S, and I am passionate about
+              exploring the exciting world of blockchain development. Currently,
+              I am deeply engrossed in learning the intricacies of blockchain
+              technology, fascinated by its potential to revolutionize various
+              industries and create innovative solutions for real-world
+              problems.. Solving puzzles, playing games, and exploring the pages
+              of books are my favorite pastimes. I thrive on challenges and love
+              honing my problem-solving skills. Apart from my tech interests,
+              I'm captivated by the intricacies of businesses and geopolitics.
             </p>
           </div>
         </section>
