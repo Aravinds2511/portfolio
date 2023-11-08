@@ -39,7 +39,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://black-abbye-66.tiiny.site"
+                  href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -59,7 +59,7 @@ export default function Home() {
               Blockchain Developer
             </h3> */}
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Scroll down to know something more about me...
+              Scroll down to know more about me...
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
@@ -238,11 +238,7 @@ export default function Home() {
                 style={{ backgroundColor: "#666666" }}
               >
                 <h3 className="text-lg font-medium pt-2 pb-1 py-4 text-blue-100">
-                  <a
-                    href="https://github.com/Aravinds2511/Weather_app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="/bec.pdf" target="_blank" rel="noopener noreferrer">
                     BEC Vantage(2020)
                   </a>
                 </h3>
