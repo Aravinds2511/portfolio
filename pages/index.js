@@ -50,7 +50,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Hi, I'm
+              Hi, Im
             </h3>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Aravind S
@@ -85,7 +85,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} alt="" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -105,7 +105,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={nft} width={500} height={300} />
+                <Image src={nft} alt="" width={500} height={300} />
               </a>
               <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
@@ -137,7 +137,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={pos} width={600} height={300} />
+                <Image src={pos} alt="" width={600} height={300} />
               </a>
               <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
@@ -177,7 +177,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={tracking} width={500} height={300} />
+                <Image src={tracking} alt="" width={500} height={300} />
               </a>
               <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
@@ -206,7 +206,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={weather} width={500} height={250} />
+                <Image src={weather} alt="" width={500} height={250} />
               </a>
               <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
@@ -370,8 +370,8 @@ export default function Home() {
               industries and create innovative solutions for real-world
               problems.. Solving puzzles, playing games, and exploring the pages
               of books are my favorite pastimes. I thrive on challenges and love
-              honing my problem-solving skills. Apart from my tech interests,
-              I'm captivated by the intricacies of businesses and geopolitics.
+              honing my problem-solving skills. Apart from my tech interests, Im
+              captivated by the intricacies of businesses and geopolitics.
             </p>
           </div>
         </section>
