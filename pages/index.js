@@ -12,6 +12,7 @@ import deved from "../public/dev-ed-wave.png";
 import weather from "../public/Weather.png";
 import nft from "../public/NFT.png";
 import tracking from "../public/Tracking.png";
+import stake from "../public/stake.png";
 import Image from "next/image";
 import pos from "../public/POS.png";
 
@@ -196,6 +197,37 @@ export default function Home() {
               </p>
               {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
               <p className="text-blue-100 py-1">Solidity | Next.js | Hardhat</p>
+            </div>
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+              style={{ backgroundColor: "#666666" }}
+            >
+              <a
+                href="https://defi-staking-app-six.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image src={stake} alt="" width={500} height={300} />
+              </a>
+              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                <a
+                  href="https://github.com/Aravinds2511/defi_staking_app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  DEFI-STAKING-APP (code)
+                  <p className="text-green-500">
+                    --------------------------------
+                  </p>
+                </a>
+              </h3>
+              <p className="text-blue-100 py-2">
+                Created a Defi-Staking app using blockchain technology that
+                rewards propotional to the time and amount.
+              </p>
+              <p className="text-blue-100 py-1">
+                Solidity | React.js | Truffle
+              </p>
             </div>
             <div
               className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
