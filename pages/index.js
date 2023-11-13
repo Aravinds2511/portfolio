@@ -234,7 +234,7 @@ export default function Home() {
               style={{ backgroundColor: "#666666" }}
             >
               <a
-                href="https://weather-app-eosin-nine.vercel.app/"
+                href="https://weather-app-js-lovat.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -242,7 +242,7 @@ export default function Home() {
               </a>
               <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
-                  href="https://github.com/Aravinds2511/Weather_app"
+                  href="https://github.com/Aravinds2511/weatherApp"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -254,10 +254,10 @@ export default function Home() {
               </h3>
               <p className=" text-blue-100 py-2">
                 Created a weather app that provides weather conditions,
-                forecasts and suggestions.
+                forecasts and location based weather updates.
               </p>
               {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-blue-100 py-1">WEB 2 | React</p>
+              <p className="text-blue-100 py-1">Html | Css | JS</p>
             </div>
           </div>
         </section>
