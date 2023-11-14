@@ -290,6 +290,8 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
+            </div>
+            <div className="flex gap-10">
               <div
                 className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
                 style={{ backgroundColor: "#666666" }}
@@ -304,8 +306,6 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
-            </div>
-            <div className="flex gap-10">
               <div
                 className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
                 style={{ backgroundColor: "#666666" }}
@@ -320,6 +320,8 @@ export default function Home() {
                   </a>
                 </h3>
               </div>
+            </div>
+            <div className="flex gap-10">
               <div
                 className="text-center shadow-lg p-1 rounded-xl my-4  dark:bg-white flex-1 max-w-xs"
                 style={{ backgroundColor: "#666666" }}
