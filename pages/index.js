@@ -15,6 +15,7 @@ import tracking from "../public/Tracking.png";
 import stake from "../public/stake.png";
 import Image from "next/image";
 import pos from "../public/POS.png";
+import twitter from "../public/twitter.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -125,9 +126,38 @@ export default function Home() {
                 Created an simple nft marketplace to create, sell and buy
                 nfts...
               </p>
-              {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
               <p className="text-blue-100 py-1">
                 Solidity | Next.js | Hardhat | Pinata
+              </p>
+            </div>
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"
+              style={{ backgroundColor: "#666666" }}
+            >
+              <a
+                href="https://twitter-solana.vercel.app/#/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image src={twitter} alt="" width={500} height={300} />
+              </a>
+              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                <a
+                  href="https://github.com/Aravinds2511/twitter_solana"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  TWITTER-SOLANA-DAPP (code)
+                  <p className="text-green-500">
+                    --------------------------------
+                  </p>
+                </a>
+              </h3>
+              <p className="text-blue-100 py-2">
+                Created a twitter like dapp in solana blockchain
+              </p>
+              <p className="text-blue-100 py-1">
+                Rust | Vue.js | Anchor | Solana
               </p>
             </div>
             <div
