@@ -98,197 +98,205 @@ export default function Home() {
             {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"></p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"></p> */}
           </div>
-          <div className="gap-10 max-w-lg">
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"
-              style={{ backgroundColor: "#666666" }}
-            >
-              <a
-                href="https://nft-marketplace-61m7p6rcn-arvnds-projects.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+          <div className="gap-10 ">
+            <div className="flex gap-20">
+              <div
+                className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"
+                style={{ backgroundColor: "#666666" }}
               >
-                <Image src={nft} alt="" width={500} height={300} />
-              </a>
-              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
-                  href="https://github.com/Aravinds2511/NFT_Marketplace"
+                  href="https://nft-marketplace-61m7p6rcn-arvnds-projects.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  NFT MARKETPLACE (code)
-                  <p className="text-green-500">
-                    --------------------------------
-                  </p>
+                  <Image src={nft} alt="" width={500} height={300} />
                 </a>
-              </h3>
-              <p className="text-blue-100 py-2">
-                Created an simple nft marketplace to create, sell and buy
-                nfts...
-              </p>
-              <p className="text-blue-100 py-1">
-                Solidity | Next.js | Hardhat | Pinata
-              </p>
-            </div>
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"
-              style={{ backgroundColor: "#666666" }}
-            >
-              <a
-                href="https://twitter-solana.vercel.app/#/"
-                target="_blank"
-                rel="noopener noreferrer"
+                <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                  <a
+                    href="https://github.com/Aravinds2511/NFT_Marketplace"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NFT MARKETPLACE (code)
+                    <p className="text-green-500">
+                      --------------------------------
+                    </p>
+                  </a>
+                </h3>
+                <p className="text-blue-100 py-2">
+                  Created an simple nft marketplace to create, sell and buy
+                  nfts...
+                </p>
+                <p className="text-blue-100 py-1">
+                  Solidity | Next.js | Hardhat | Pinata
+                </p>
+              </div>
+              <div
+                className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"
+                style={{ backgroundColor: "#666666" }}
               >
-                <Image src={twitter} alt="" width={500} height={300} />
-              </a>
-              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
-                  href="https://github.com/Aravinds2511/twitter_solana"
+                  href="https://twitter-solana.vercel.app/#/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  TWITTER-SOLANA-DAPP (code)
-                  <p className="text-green-500">
-                    --------------------------------
-                  </p>
+                  <Image src={twitter} alt="" width={500} height={300} />
                 </a>
-              </h3>
-              <p className="text-blue-100 py-2">
-                Created a twitter like dapp in solana blockchain
-              </p>
-              <p className="text-blue-100 py-1">
-                Rust | Vue.js | Anchor | Solana
-              </p>
+                <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                  <a
+                    href="https://github.com/Aravinds2511/twitter_solana"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    TWITTER-SOLANA-DAPP (code)
+                    <p className="text-green-500">
+                      --------------------------------
+                    </p>
+                  </a>
+                </h3>
+                <p className="text-blue-100 py-2">
+                  Created a twitter like dapp in solana blockchain
+                </p>
+                <p className="text-blue-100 py-1">
+                  Rust | Vue.js | Anchor | Solana
+                </p>
+              </div>
             </div>
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
-              style={{ backgroundColor: "#666666" }}
-            >
-              <a
-                href="https://github.com/Aravinds2511/proof_of_stack_blockchain_prototype"
-                target="_blank"
-                rel="noopener noreferrer"
+            <div className="flex gap-20">
+              <div
+                className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+                style={{ backgroundColor: "#666666" }}
               >
-                <Image src={pos} alt="" width={600} height={300} />
-              </a>
-              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
                   href="https://github.com/Aravinds2511/proof_of_stack_blockchain_prototype"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  PROOF-OF-STAKE(Prototype) (code)
-                  <p className="text-green-500">
-                    --------------------------------
-                  </p>
+                  <Image src={pos} alt="" width={600} height={300} />
                 </a>
-              </h3>
-              <p className="text-blue-100 py-2">
-                Created a simple blockchain that implements proof of stake.
-              </p>
-              {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-blue-100 py-1">Python</p>
-              <p className="text-blue-100 py-1">
-                &#8226; P2P connection established
-              </p>
-              <p className="text-blue-100 py-1">
-                &#8226; Implemeted Block validation, signature validation and
-                POS consensus protocol
-              </p>
-              <p className="text-blue-100 py-1">
-                &#8226; Has Api endpoints for blockchain state, info,
-                transaction pool and transactions
-              </p>
-            </div>
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
-              style={{ backgroundColor: "#666666" }}
-            >
-              <a
-                href="https://web3-tracking-app.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
+                <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                  <a
+                    href="https://github.com/Aravinds2511/proof_of_stack_blockchain_prototype"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    PROOF-OF-STAKE(Prototype) (code)
+                    <p className="text-green-500">
+                      --------------------------------
+                    </p>
+                  </a>
+                </h3>
+                <p className="text-blue-100 py-2">
+                  Created a simple blockchain that implements proof of stake.
+                </p>
+                {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
+                <p className="text-blue-100 py-1">Python</p>
+                <p className="text-blue-100 py-1">
+                  &#8226; P2P connection established
+                </p>
+                <p className="text-blue-100 py-1">
+                  &#8226; Implemeted Block validation, signature validation and
+                  POS consensus protocol
+                </p>
+                <p className="text-blue-100 py-1">
+                  &#8226; Has Api endpoints for blockchain state, info,
+                  transaction pool and transactions
+                </p>
+              </div>
+              <div
+                className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+                style={{ backgroundColor: "#666666" }}
               >
-                <Image src={tracking} alt="" width={500} height={300} />
-              </a>
-              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
-                  href="https://github.com/Aravinds2511/Web3_Tracking_App/"
+                  href="https://web3-tracking-app.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  WEB3-TRACKING-APP (code)
-                  <p className="text-green-500">
-                    --------------------------------
-                  </p>
+                  <Image src={tracking} alt="" width={500} height={300} />
                 </a>
-              </h3>
-              <p className="text-blue-100 py-2">
-                Created a tracking app using blockchain technology.
-              </p>
-              {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-blue-100 py-1">Solidity | Next.js | Hardhat</p>
+                <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                  <a
+                    href="https://github.com/Aravinds2511/Web3_Tracking_App/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WEB3-TRACKING-APP (code)
+                    <p className="text-green-500">
+                      --------------------------------
+                    </p>
+                  </a>
+                </h3>
+                <p className="text-blue-100 py-2">
+                  Created a tracking app using blockchain technology.
+                </p>
+                {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
+                <p className="text-blue-100 py-1">
+                  Solidity | Next.js | Hardhat
+                </p>
+              </div>
             </div>
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
-              style={{ backgroundColor: "#666666" }}
-            >
-              <a
-                href="https://defi-staking-app-six.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+            <div className="flex gap-20">
+              <div
+                className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+                style={{ backgroundColor: "#666666" }}
               >
-                <Image src={stake} alt="" width={500} height={300} />
-              </a>
-              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
-                  href="https://github.com/Aravinds2511/defi_staking_app/"
+                  href="https://defi-staking-app-six.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  DEFI-STAKING-APP (code)
-                  <p className="text-green-500">
-                    --------------------------------
-                  </p>
+                  <Image src={stake} alt="" width={500} height={300} />
                 </a>
-              </h3>
-              <p className="text-blue-100 py-2">
-                Created a Defi-Staking app using blockchain technology that
-                rewards propotional to the time and amount.
-              </p>
-              <p className="text-blue-100 py-1">
-                Solidity | React.js | Truffle
-              </p>
-            </div>
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
-              style={{ backgroundColor: "#666666" }}
-            >
-              <a
-                href="https://weather-app-js-lovat.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+                <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                  <a
+                    href="https://github.com/Aravinds2511/defi_staking_app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    DEFI-STAKING-APP (code)
+                    <p className="text-green-500">
+                      --------------------------------
+                    </p>
+                  </a>
+                </h3>
+                <p className="text-blue-100 py-2">
+                  Created a Defi-Staking app using blockchain technology that
+                  rewards propotional to the time and amount.
+                </p>
+                <p className="text-blue-100 py-1">
+                  Solidity | React.js | Truffle
+                </p>
+              </div>
+              <div
+                className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+                style={{ backgroundColor: "#666666" }}
               >
-                <Image src={weather} alt="" width={500} height={250} />
-              </a>
-              <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
                 <a
-                  href="https://github.com/Aravinds2511/weatherApp"
+                  href="https://weather-app-js-lovat.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  WEATHER APP (code)
-                  <p className="text-green-500">
-                    --------------------------------
-                  </p>
+                  <Image src={weather} alt="" width={500} height={250} />
                 </a>
-              </h3>
-              <p className=" text-blue-100 py-2">
-                Created a weather app that provides weather conditions,
-                forecasts and location based weather updates.
-              </p>
-              {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
-              <p className="text-blue-100 py-1">Html | Css | JS</p>
+                <h3 className="text-xl font-medium pt-8 pb-2 py-4 text-blue-300">
+                  <a
+                    href="https://github.com/Aravinds2511/weatherApp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WEATHER APP (code)
+                    <p className="text-green-500">
+                      --------------------------------
+                    </p>
+                  </a>
+                </h3>
+                <p className=" text-blue-100 py-2">
+                  Created a weather app that provides weather conditions,
+                  forecasts and location based weather updates.
+                </p>
+                {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4> */}
+                <p className="text-blue-100 py-1">Html | Css | JS</p>
+              </div>
             </div>
           </div>
         </section>
@@ -399,6 +407,7 @@ export default function Home() {
                   &#8226; Javascript
                 </p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Python</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Rust</p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; C</p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Sql</p>
               </li>
@@ -415,12 +424,14 @@ export default function Home() {
                   &#8226; React js
                 </p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Next js</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Vue js</p>
               </li>
               <li>
                 <h2 className="text-2xl mt-5 py-1 dark:text-white">Tools:</h2>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Foundry</p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Hardhat</p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Truffle</p>
+                <p className="text-1xl py-1 dark:text-white">&#8226; Anchor</p>
                 <p className="text-1xl py-1 dark:text-white">&#8226; Remix</p>
               </li>
             </ul>
