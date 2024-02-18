@@ -66,7 +66,7 @@ export default function Home() {
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
-                href="http://www.linkedin.com/in/aravind-srinivasan-088367291"
+                href="http://www.linkedin.com/in/aravind-s-088367291"
                 target="_blank"
                 rel="noopener noreferrer"
               >
